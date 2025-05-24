@@ -1,0 +1,825 @@
+/*   
+Theme Name: Street Level Japan v3
+Description: Blog theme for exclusive use by MCV MCV.
+Author: In Residence
+Author URI: http://inresidence.info
+Version: 3
+*/
+
+
+	/* becca styles */
+	
+	.single {
+	margin-left: 288px;
+	}
+
+/*
+	* {margin:0;padding:0;} 
+
+	body {
+	font-family: Times;
+	font-size: 20px;
+	line-height: 23px;
+	margin-right: 16px;
+	margin-left: 16px;
+	}
+*/
+
+/*
+	a:link {
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	}
+*/
+	
+/*
+	a:visited {
+	color: black;
+	text-decoration: none;
+	}
+	
+	a:hover {
+	color: black;
+	text-decoration: none;
+	border-bottom: black solid 1px;
+	}
+*/
+
+
+	#top {
+	height: 0;
+	visibility: hidden;
+	}
+	
+	.highlight {
+	background-color: yellow;
+	}
+	
+	.index-col{
+	float: left;
+	padding-left:28px;
+	}
+	
+	.comment-content{
+	margin-left: 24px;
+	}
+	
+	p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	}
+
+	#pagination{
+	float:left;
+	margin-left: 28px;
+/* 	clear: both; */
+	}
+	
+	#indicator {
+	float:left;
+	margin-left: 28px;
+	}
+
+	.uppercase{
+	text-transform: uppercase;
+	}
+	
+	.entry img, .entry iframe{
+	margin-left: -73px;
+	}
+	
+	.fb_iframe_widget iframe {
+	margin-left: 0;
+	}
+	
+	h2 {
+	margin:0;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: normal;
+	}
+	
+	em {
+	font-family: Times;
+	font-style: italic;
+	}
+	
+	#wrap {
+	/* background-color: antiquewhite; */
+	/* height: 100%; */
+	text-align: left;
+	position: relative;
+	}
+	
+	
+
+	
+	#header {
+	width: 100%;
+	padding-top: 10px;
+	height: 22px;
+	padding-bottom: 1em;
+	}
+
+	.header-item {
+	float: left;
+	}
+		
+	.left {
+	position: absolute;
+	z-index: 10;
+	}	
+		
+	.middle {
+	position: absolute;
+	margin-left: 200px;
+	z-index: 10;
+	}
+	
+	.right {
+	width: 99%;
+	min-width: 950px;
+	text-align: right;
+	z-index: 0;
+	}
+	
+
+		
+
+
+
+
+	
+	#sidebar-post-list{
+	padding-left: 20px
+	}
+	
+	.sidebar-item{
+	padding-bottom: 1em;
+	}
+
+	#copyright {
+	width: 200px;
+	/* vertical-align: bottom; */
+	/* float: right; */
+	padding-bottom: 21px;
+	}
+	
+	#top-link{
+	position: absolute;
+	}
+
+
+
+
+	
+
+	
+	.wp-caption-text{
+	margin-left: -73px;
+	padding-bottom: 20px;
+	}
+	
+	.post li {
+	list-style-image: url('/wp-content/themes/Streetlevelv3/dash.png');
+	padding-bottom: 27px;
+	}
+	
+	.post ul {
+	padding-left: 30px;
+	}
+	
+	.entry ol {
+	text-align: left;
+	padding-left: 39px;
+	}
+	
+	.entry ol li{
+	list-style: decimal-leading-zero;
+	}
+	
+	.sub-post {
+/* 	padding-left: 110px; */
+	margin-left: 144px;
+	}
+	
+	.sup-post p {
+	padding-bottom: 20px;
+	}	
+	
+	#sub-post-pad {
+	float: left;
+	width: 144px;
+	}
+
+
+	
+/*
+.lists {
+width: 311px;
+padding-right: 16px;
+padding-bottom: 27px;
+float: left;
+display: inline-block;
+}
+*/
+
+
+
+
+.share {
+width: 116px;
+/* height: 20px; */
+vertical-align: top;
+float: left;
+margin-top: -3px;
+}
+
+/*
+.floater {
+width: 116px;
+height: 20px;
+vertical-align: top;
+float: left;
+}
+*/
+
+ul li {
+list-style: none;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+
+
+
+
+/*
+	.commentlist{
+	padding-left: 220px;
+	}
+*/
+	
+	.commentlist p{
+	padding-bottom: 1em;
+	}
+	
+/*
+	ul li.comment:nth-child(even) {
+	padding-left: 20px;
+	}
+*/
+	
+	.comment-date {
+/* 	margin-top: -1em; */
+	} 
+	
+	.comment {
+/* 	padding-bottom: 1em; */
+	}
+	
+	.comment-meta {
+/*
+	margin-top: -21px;
+	padding-bottom: 24px;
+*/
+/* 	font-size: 16px; */
+/* 	padding-left: 20px; */
+	}
+	
+/*
+	#commentform {
+	padding-bottom: 24px;
+	}
+*/
+	
+	.input-txt {
+/* 	padding-left: 5px; */
+	}
+	
+/* pingback */
+	li.pingback {
+	float: none;
+	padding-bottom: 0;
+	}
+	
+	li.pingback p {
+	padding-bottom: 24px;
+	}
+
+
+
+
+
+
+
+
+
+
+	#submit{
+	font-size: 11px;
+/* 	padding-top: 3px; */
+	
+	}
+	
+	#author, #email, #url, #submit{
+	height:15px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 1px;
+	}
+	
+	#comment{
+	height: 137px
+	padding-left: 1px;
+	}
+
+
+	.meta-field {
+/* 	height:16px; */
+	width: 188px;
+	padding-left: 1px;
+	}
+	
+	.meta-entry {
+	width: 404px;
+	
+	}
+	
+	.meta-entry, .meta-field {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+/* 	font-size: 11px; */
+	border: 1px solid #D1D1D1;
+	
+/* 	padding-left: 1px; */
+	
+	}
+	
+	.meta-line{
+/* 	padding-top: 3px; */
+	line-height: 0px;
+	padding-bottom: 3px;
+	}
+	
+	.input-txt{
+	line-height: 0px;
+	}
+
+/*footnotes*/
+
+	.simple-footnotes {
+	margin-left: 144px;
+	word-wrap: break-word;
+
+		-ms-word-break: break-all;
+		word-break: break-all;
+		
+/* 		Non standard for webkit */
+		word-break: break-word;
+		
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		hyphens: auto;	
+	}
+	
+	.simple-footnotes li, .simple-footnotes p {
+	padding: 0;
+	margin: 0;
+	}
+	
+	.simple-footnotes ol {
+	padding-bottom: 1em;
+	}
+
+	blockquote {
+	padding-left: 30px;
+	}
+	
+	.note-num {
+	float:left; 
+	width:24px;
+	}
+	
+	.note-content {
+	margin-left: 24px
+	}
+	
+	.note-border {
+	border-bottom: 1px solid white;
+	}
+	
+
+.connect_widget_like_button .liketext {
+font-family: times;
+}
+
+.col1 {
+width:230px;
+margin-right: 20px;
+float: left;
+/* background-color: green; */
+}
+
+.col2 {
+width:230px;
+margin-right: 20px;
+float: left;
+/* background-color: lime; */
+}
+
+
+.col3 {
+width:480px;
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+}
+
+/* typography */
+strong, b {
+font-weight: normal;
+/* color:red; */
+}
+
+
+
+
+
+
+
+
+
+/* NEW STYLES */
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+/* background-color: red; */
+/* width: 400px; */
+/* overflow: hidden; */
+/* margin-top: 5px; */
+}
+
+
+/* TYPOGRAPHY */
+
+.text-body, h1, h2, h3 {
+font: normal 19px/24px Times, serif;
+}
+
+
+sup {
+margin-left: -2px;
+padding-right: 1px;
+font-size: 14px;
+letter-spacing: -.05em;
+line-height: 0px;
+border-bottom: 1px solid white;
+}
+
+
+
+.text-sub, .wp-caption-text{
+font: normal 16px/20px Times, serif;
+position: relative;
+top: 2px;
+/* font-family: Helvetica; */
+}
+
+a:link{
+font-family: Helvetica;
+/* font-weight: bold; */
+text-decoration: none;
+border-bottom: none;
+color: black;
+font-size: 17px;
+/* background-color: red; */
+/* padding-bottom: 10px; */
+}
+
+.text-sub a:link, .wp-caption-text a:link, sup a:link{
+font-size: 14px;
+}
+
+
+/*
+a.temp:link {
+cursor: default;
+font-family: Times;
+font-size: 100%;
+}
+*/
+
+a:visited {
+font-family: Helvetica;
+font-size: 17px;
+color: black;
+text-decoration: none;
+border-bottom: none;
+}
+
+.text-sub a:visited, .wp-caption-text a:visited, sup a:visited {
+font-size: 14px;
+}
+
+a:hover {
+/* background-color: green; */
+/* padding-bottom: 10px; */
+border-bottom: 1px solid black;
+padding-bottom: 1px;
+text-decoration: none;
+}
+
+
+
+a img:link {
+border: none;
+}
+
+a img:visited {
+border: none;
+}
+
+a img:active {
+border: none;
+}
+
+a img:hover {
+border: none;
+}
+
+/*
+a.temp:hover {
+cursor: default;
+font-family: Times;
+font-size: 100%;
+}
+*/
+
+a img {
+display: block;
+margin-bottom: 6px;
+border: none;
+}
+
+/* TOP LEVEL DIV */
+
+#site-header { 
+/* 	background-color: gray; */
+text-align: right;
+width: 100%;
+margin-bottom: 4px;
+padding-top:5px;
+/* border:blue solid 1px; */
+}
+
+#site-home {
+margin-left: 460px;
+position: absolute;
+left:0;
+text-align: left;
+/*  background-color: antiquewhite; */
+}
+
+.page-wrap {
+/* background-color: red; */
+/* margin: 5px 10px 0 10px; */
+width: 896px;
+float: left;
+/* border:blue solid 1px; */
+/* overflow: hidden; */
+}
+
+.page-header {
+padding-bottom: 24px;
+/* border: blue solid 1px; */
+}
+
+#main-content {
+/* margin-top: -74px; */
+/* margin-left: 210px; */
+float:left;
+/* margin-left: 28px; */
+/* width: 637px; */
+/* margin-right: 32px; */
+/* border: 1px solid blue; */
+/* background-color: blue; */
+}
+
+#sidebar, #footer {
+float: left;
+margin-left:28px;
+/* background-color: red; */
+/* padding-bottom: 20px; */
+}
+
+
+/* three column grid */
+
+.threeCol-spanOne{
+width: 260px;
+/* background-color: red; */
+}
+
+.threeCol-spanTwo {
+width: 548px;
+/* background-color: red; */
+}
+
+.content {
+margin-left: 28px;
+float: left;
+}
+
+.threeCol-colTwo {
+margin-left: 28px;
+}
+
+
+.page-header .threeCol-spanOne,
+.page-header .threeCol-spanTwo {
+float: left;
+text-align: left;
+margin-left:28px;
+}
+
+.post .threeCol-colTwo img,
+.post .threeCol-colTwo .wp-caption-text{
+margin-left: -72px;
+}
+
+
+/* four column grid */
+.wp-caption-text,
+.fourCol-spanOne{
+/* padding-top: 2px; */
+width: 188px;
+}
+
+.fourCol-spanTwo{
+width: 404px;
+}
+
+#mcv-home {
+margin-left: 676px;
+margin-right:28px;
+text-align: center;
+display: inline-block;
+*display: inline;
+}
+
+
+
+/* twelve column grid */
+
+.twelveCol-spanOne {
+/* padding-top: 2px; */
+width: 44px;
+float: left;
+/* margin-left: 20px; */
+/* background-color: red; */
+}
+
+
+.top-anchor {
+
+}
+
+.twelveCol-spanNine {
+width: 620px;
+padding-left:28px;
+}
+
+
+
+
+.post .twelveCol-colFour {
+float: left;
+/* background-color:red; */
+}
+
+
+
+
+p {
+ 
+}
+
+.home {
+	display: inline-block;
+	*display:inline;
+	right:0;
+/* 	background-color: aqua; */
+}
+
+
+
+
+/* NON POSITION DIVS */
+
+/* body text line breaks */
+	.post-title, .entry p, 	#indicator, .index-group, #index-indicator {
+	padding-bottom: 24px;
+/*
+	font-size: 24px;
+	line-height: 27px;
+	font-weight: bold;
+	text-align: center;
+*/
+}
+
+.respond-block {
+padding-bottom: 20px;
+}
+
+/* sub text line breaks */
+
+	.sub-post, .sub-post-item{
+	padding-bottom: 20px;
+	}
+	
+/*
+	.sub-post-tags{
+	padding-bottom:20px;
+	}
+*/
+
+.post {
+/* position: relative; */
+float: left;
+/* background-color:blue; */
+/* width: 564px; */
+/* margin-left: 73px; */
+/* background-color: lime; */
+}
+
+
+/* index pagess */
+
+.indexCol {
+float: left;
+margin-left: 28px;
+padding-bottom: 20px;
+}
+
+div {
+display:block;
+}
+
+.clear {
+clear: both;
+}
+
+
+/* Sticky Footer */
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 20px;
+}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -42px; /* negative value of footer height */
+	height: 40px;
+	clear:both;
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+/* FB button */
+
+.fb-like {
+padding-bottom:5px;
+}
+
+/* Twitter button */
+
+.entry iframe.twitter-share-button {
+margin-left: 0;
+}
